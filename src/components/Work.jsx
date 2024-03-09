@@ -1,6 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg';
-import RealStateImg from '../assets/projects/realestate.jpg';
+import TextUtils from '../assets/projects/TextUtils.png';
 
 const Work = () => {
   return (
@@ -13,44 +12,44 @@ const Work = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 pb-50'>
             {/* Grid Item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${TextUtils})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
                 {/* Hover Effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>React Js Application</span>
+                    <span className='text-2xl font-bold text-white tracking-wider'>TextUtils App</span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://onedevshahan.github.io/TextUtility/' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href='/'>
+                        <a href='https://github.com/OneDevShahan/TextUtility' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${RealStateImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${TextUtils})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
                 {/* Hover Effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>React Js Application</span>
+                    <span className='text-2xl font-bold text-white tracking-wider'>TextUtils App</span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://onedevshahan.github.io/TextUtility/' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href='/'>
+                        <a href='https://github.com/OneDevShahan/TextUtility' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
             {/* Grid Item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${TextUtils})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
                 {/* Hover Effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>React Js Application</span>
+                    <span className='text-2xl font-bold text-white tracking-wider'>TextUtils App</span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://onedevshahan.github.io/TextUtility/' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href='/'>
+                        <a href='https://github.com/OneDevShahan/TextUtility' target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 m-2 py-3 bg-white text-grey-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
