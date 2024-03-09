@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-with-react/static/css/main.aa513718.css",
-    "main.js": "/portfolio-with-react/static/js/main.c0a0dcad.js",
+    "main.js": "/portfolio-with-react/static/js/main.75ac8a6f.js",
     "static/media/Whatsapp.png": "/portfolio-with-react/static/media/Whatsapp.7794d11c64d9e17d9879.png",
-    "static/media/realestate.jpg": "/portfolio-with-react/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/Telegram.png": "/portfolio-with-react/static/media/Telegram.8e9b7a2d23859d577120.png",
-    "static/media/workImg.jpeg": "/portfolio-with-react/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/TextUtils.png": "/portfolio-with-react/static/media/TextUtils.ffd557f73e31a8c5dc2d.png",
     "static/media/aws.png": "/portfolio-with-react/static/media/aws.95bdee6b9922c9b94fd5.png",
     "static/media/node.png": "/portfolio-with-react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/portfolio-with-react/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -17,10 +16,10 @@
     "static/media/javascript.png": "/portfolio-with-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-with-react/index.html",
     "main.aa513718.css.map": "/portfolio-with-react/static/css/main.aa513718.css.map",
-    "main.c0a0dcad.js.map": "/portfolio-with-react/static/js/main.c0a0dcad.js.map"
+    "main.75ac8a6f.js.map": "/portfolio-with-react/static/js/main.75ac8a6f.js.map"
   },
   "entrypoints": [
     "static/css/main.aa513718.css",
-    "static/js/main.c0a0dcad.js"
+    "static/js/main.75ac8a6f.js"
   ]
 }
