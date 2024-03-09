@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import Logo from '../assets/logo1.png';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaYoutube, FaInstagram} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -10,33 +9,36 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-      <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-          <div>
-              <img src={Logo} alt='Logo' style={{width: '50px'}}/>
+      <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' style={{"Link:hover": "bg-border-pink-600"}}>
+          <div className='cursor-pointer'>
+              <Link to='home' smooth={true} duration={500}>
+                <p className='text-pink-600 font-bold text-4xl'>OneDev</p>
+                <p className='text-pink-600 text-sm'>Code.Solve.Repeat</p>
+              </Link>
           </div>
           { /*menu */}
               <ul className='hidden md:flex'>
-                  <li>
+                  <li className="border-transparent border-b-2 hover:border-pink-600">
                     <Link to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                   </li>
-                  <li>
+                  <li className="border-transparent border-b-2 hover:border-pink-600">
                     <Link to='about' smooth={true} duration={500}>
                         About
                     </Link>
                   </li>
-                  <li>
+                  <li className="border-transparent border-b-2 hover:border-pink-600">
                     <Link to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                   </li>
-                  <li>
+                  <li className="border-transparent border-b-2 hover:border-pink-600">
                     <Link to='work' smooth={true} duration={500}>
                         Work
                     </Link>
                   </li>
-                  <li>
+                  <li className="border-transparent border-b-2 hover:border-pink-600">
                     <Link to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>
@@ -80,23 +82,23 @@ const Navbar = () => {
           <div className='hidden lg:flex fixed top-[35%] left-0  bg-[#0a192f] '>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='/'>Linked<FaLinkedin size={30} />
+                    <a className='flex justify-between items-center w-full text-grey-300' href='https://www.linkedin.com/in/shahan-ahmad-5aa56b10a/' target="_blank" rel="noopener noreferrer">Linked<FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='/'>Mail<HiOutlineMail size={30} />
+                    <a className='flex justify-between items-center w-full text-grey-300' href="mailto:onedevshahan@gmail.com">Mail<HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='/'>Github<FaGithub size={30} />
+                    <a className='flex justify-between items-center w-full text-grey-300' href='https://github.com/OneDevShahan' target="_blank" rel="noopener noreferrer">Github<FaGithub size={30} />
                     </a>
                   </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
+                {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
                     <a className='flex justify-between items-center w-full text-grey-300' href='/'>Instagram <FaInstagram size={30} />
                     </a>
-                </li>
+                </li> */}
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='/'>Resume <BsFillPersonLinesFill size={30} />
+                    <a className='flex justify-between items-center w-full text-grey-300' href='https://drive.google.com/file/d/1vZUp_3EGhhyKoZudt57nJxynMSMbd79s/view?usp=drive_link' target="_blank" rel="noopener noreferrer">Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
             </ul>
