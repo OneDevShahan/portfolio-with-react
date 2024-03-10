@@ -1,5 +1,6 @@
 import React from 'react'
 import TextUtils from '../assets/projects/TextUtils.png';
+import ImagePDFConverter from '../assets/projects/ImagePDFConverter.png';
 
 const Work = () => {
   return (
@@ -26,15 +27,15 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${TextUtils})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${ImagePDFConverter})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
                 {/* Hover Effect */}
                 <div className='flex flex-col justify-center opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>TextUtils App</span>
+                    <span className='text-2xl font-bold text-white tracking-wider'>Image2PDF Converter</span>
                     <div className='pt-2'>
-                        <a href='https://onedevshahan.github.io/TextUtility/' target="_blank" rel="noopener noreferrer">
+                        <a href='https://onedevshahan.github.io/image-to-pdf-converter/' target="_blank" rel="noopener noreferrer">
                             <button className='rounded-lg px-4 m-2 py-3 bg-white hover:bg-pink-600 text-grey-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href='https://github.com/OneDevShahan/TextUtility' target="_blank" rel="noopener noreferrer">
+                        <a href='https://github.com/OneDevShahan/image-to-pdf-converter' target="_blank" rel="noopener noreferrer">
                             <button className='rounded-lg px-4 m-2 py-3 bg-white hover:bg-pink-600 text-grey-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
