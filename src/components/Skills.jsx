@@ -5,8 +5,13 @@ import JavaScript from '../assets/javascript.png';
 import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
 import NodeJs from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
-import Mongo from '../assets/mongo.png';
+import Java from '../assets/Java.png';
+import Spring from '../assets/Spring.png';
+import SpringBoot from '../assets/SpringBoot.png';
+import ReactJs from '../assets/React.png';
+import Tailwind from '../assets/Tailwind.svg';
+import TailwindPng from '../assets/tailwind.png';
+
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen  bg-[#0a192f] text-gray-300'>
@@ -19,6 +24,10 @@ const Skills = () => {
         
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-6'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript icon'/>
+                <p className='my-4'>JavaScript</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={HTML} alt='HTML icon'/>
                 <p className='my-4'>HTML</p>
             </div>
@@ -27,29 +36,37 @@ const Skills = () => {
                 <p className='my-4'>CSS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript icon'/>
-                <p className='my-4'>JavaScript</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={AWS} alt='AWS icon'/>
                 <p className='my-4'>AWS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={GitHub} alt='GitHub icon'/>
-                <p className='my-4'>GitHub</p>
+                <p className='my-4'>Git</p>
+            </div>  
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Java} alt='Java icon'/>
+                <p className='my-4'>Java</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={FireBase} alt='FireBase icon'/>
-                <p className='my-4'>FireBase</p>
+                <img className='w-20 mx-auto my-4' src={Spring} alt='Spring icon'/>
+                <p className='my-4'>Spring</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Mongo} alt='Mongo icon'/>
-                <p className='my-4'>Mongo</p>
+                <img className='w-20 mx-auto my-5' src={SpringBoot} alt='SpringBoot icon'/>
+                <p className='my-6'>SpringBoot</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={ReactJs} alt='React icon'/>
+                <p className='my-4'>React</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={TailwindPng} alt='Tailwind icon'/>
+                <p className='my-4'>Tailwind</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={NodeJs} alt='NodeJs icon'/>
                 <p className='my-4'>NodeJs</p>
-            </div>            
+            </div>          
         </div>
       </div>
     </div>
