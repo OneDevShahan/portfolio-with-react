@@ -110,6 +110,38 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${TextUtils})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="flex flex-col justify-center opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Weather App
+              </span>
+              <div className="pt-2">
+                <a
+                  href="https://onedevshahan.github.io/weather-with-react/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="rounded-lg px-4 m-2 py-3 bg-white hover:bg-pink-600 text-grey-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/OneDevShahan/weather-with-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="rounded-lg px-4 m-2 py-3 bg-white hover:bg-pink-600 text-grey-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
