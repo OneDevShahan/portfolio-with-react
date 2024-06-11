@@ -2,6 +2,7 @@ import React from "react";
 import TextUtils from "../assets/projects/TextUtils.png";
 import ImagePDFConverter from "../assets/projects/ImagePDFConverter.png";
 import BudgetTracker from "../assets/projects/BudgetTracker.png";
+import Weather from "../assets/projects/Weather.png";
 
 const Work = () => {
   return (
@@ -112,7 +113,7 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${TextUtils})` }}
+            style={{ backgroundImage: `url(${Weather})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div"
           >
             {/* Hover Effect */}
