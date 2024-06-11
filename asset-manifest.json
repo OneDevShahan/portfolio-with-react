@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio-with-react/static/css/main.1eb21f51.css",
-    "main.js": "/portfolio-with-react/static/js/main.702cb923.js",
+    "main.js": "/portfolio-with-react/static/js/main.cf2b0075.js",
     "static/media/Whatsapp.png": "/portfolio-with-react/static/media/Whatsapp.7794d11c64d9e17d9879.png",
     "static/media/Telegram.png": "/portfolio-with-react/static/media/Telegram.8e9b7a2d23859d577120.png",
     "static/media/Java.png": "/portfolio-with-react/static/media/Java.8a965fc5ecfac17deebe.png",
+    "static/media/Weather.png": "/portfolio-with-react/static/media/Weather.0c8fb9125ea9a233d3e2.png",
     "static/media/Spring.png": "/portfolio-with-react/static/media/Spring.c579a0bc024aa879c771.png",
     "static/media/ImagePDFConverter.png": "/portfolio-with-react/static/media/ImagePDFConverter.05f98ea08d5f4a459d8e.png",
     "static/media/BudgetTracker.png": "/portfolio-with-react/static/media/BudgetTracker.1e169ab0bb434c4d80ac.png",
@@ -20,10 +21,10 @@
     "static/media/Tailwind.svg": "/portfolio-with-react/static/media/Tailwind.681db3393706b0b8d30fa63229e8ee85.svg",
     "index.html": "/portfolio-with-react/index.html",
     "main.1eb21f51.css.map": "/portfolio-with-react/static/css/main.1eb21f51.css.map",
-    "main.702cb923.js.map": "/portfolio-with-react/static/js/main.702cb923.js.map"
+    "main.cf2b0075.js.map": "/portfolio-with-react/static/js/main.cf2b0075.js.map"
   },
   "entrypoints": [
     "static/css/main.1eb21f51.css",
-    "static/js/main.702cb923.js"
+    "static/js/main.cf2b0075.js"
   ]
 }
