@@ -123,7 +123,7 @@ const Work = () => {
               </span>
               <div className="pt-2">
                 <a
-                  href="https://onedevshahan.github.io/weather-with-react/"
+                  href="https://onedevshahan.github.io/weather/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -132,7 +132,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/OneDevShahan/weather-with-react"
+                  href="https://github.com/OneDevShahan/weather"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
