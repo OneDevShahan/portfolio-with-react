@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -195,14 +195,10 @@ const Navbar = () => {
               <FaGithub size={30} />
             </a>
           </li>
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='/'>Instagram <FaInstagram size={30} />
-                    </a>
-                </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-grey-300"
-              href="https://drive.google.com/file/d/1vZUp_3EGhhyKoZudt57nJxynMSMbd79s/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ofn1eoYoF_0AWloRpYahiJCcKqDxUvgD/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
