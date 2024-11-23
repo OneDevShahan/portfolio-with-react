@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-with-react/static/css/main.73907b49.css",
-    "main.js": "/portfolio-with-react/static/js/main.89f1c537.js",
+    "main.css": "/portfolio-with-react/static/css/main.9798bb74.css",
+    "main.js": "/portfolio-with-react/static/js/main.2339933a.js",
     "static/media/Whatsapp.png": "/portfolio-with-react/static/media/Whatsapp.7794d11c64d9e17d9879.png",
     "static/media/Telegram.png": "/portfolio-with-react/static/media/Telegram.8e9b7a2d23859d577120.png",
     "static/media/Weather.png": "/portfolio-with-react/static/media/Weather.7675f1eb72864b2f1dfa.png",
@@ -20,11 +20,11 @@
     "static/media/css.png": "/portfolio-with-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio-with-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-with-react/index.html",
-    "main.73907b49.css.map": "/portfolio-with-react/static/css/main.73907b49.css.map",
-    "main.89f1c537.js.map": "/portfolio-with-react/static/js/main.89f1c537.js.map"
+    "main.9798bb74.css.map": "/portfolio-with-react/static/css/main.9798bb74.css.map",
+    "main.2339933a.js.map": "/portfolio-with-react/static/js/main.2339933a.js.map"
   },
   "entrypoints": [
-    "static/css/main.73907b49.css",
-    "static/js/main.89f1c537.js"
+    "static/css/main.9798bb74.css",
+    "static/js/main.2339933a.js"
   ]
 }
